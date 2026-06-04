@@ -1,0 +1,87 @@
+.about__grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 4rem;
+  align-items: start;
+}
+.about__text p {
+  font-size: 1rem; line-height: 1.85;
+  color: rgba(232,240,255,0.7);
+  margin-bottom: 1.2rem;
+}
+.about__text p strong { color: var(--white); }
+.highlight {
+  color: var(--cyan);
+  font-weight: 600;
+}
+.about__links {
+  display: flex; gap: 1.5rem; flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+.about__link {
+  font-family: var(--font-mono); font-size: 0.8rem;
+  color: var(--cyan); text-decoration: none;
+  display: flex; align-items: center; gap: 0.3rem;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+}
+.about__link:hover { border-color: var(--cyan); }
+
+.about__timeline-title {
+  font-family: var(--font-mono); font-size: 0.7rem;
+  letter-spacing: 0.15em; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 2rem;
+}
+.about__timeline-item {
+  display: grid;
+  grid-template-columns: 60px 20px 1fr;
+  gap: 0 1rem;
+  align-items: start;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.about__timeline-item::after {
+  content: '';
+  position: absolute;
+  left: 69px; top: 12px; bottom: -2rem;
+  width: 1px;
+  background: linear-gradient(to bottom, var(--border-bright), transparent);
+}
+.about__timeline-item:last-child::after { display: none; }
+
+.about__timeline-year {
+  font-family: var(--font-display); font-size: 0.75rem;
+  font-weight: 700; color: var(--cyan);
+  letter-spacing: 0.05em; padding-top: 2px;
+  text-align: right;
+}
+.about__timeline-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--cyan);
+  box-shadow: 0 0 10px var(--cyan);
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+.about__timeline-label {
+  font-family: var(--font-body); font-size: 0.95rem;
+  font-weight: 700; color: var(--white);
+  margin-bottom: 0.2rem;
+}
+.about__timeline-school {
+  font-size: 0.82rem; color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+.about__timeline-grade {
+  font-family: var(--font-mono); font-size: 0.72rem;
+  color: var(--purple);
+}
+
+.animate-in {
+  animation: fadeUp 0.7s ease both;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .about__grid { grid-template-columns: 1fr; gap: 3rem; }
+}
