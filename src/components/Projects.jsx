@@ -30,8 +30,8 @@ const projects = [
     ],
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO', 'JWT', 'REST API', 'MVC'],
     color: '#00f5d4',
-    liveUrl: null,
-    githubUrl: 'https://github.com/KameswaraSarma9',
+    liveUrl: 'https://resqnett-five.vercel.app/',
+    githubUrl: "https://github.com/KameswaraSarma9/PortFolio-Dev",
     icon: '🚨',
   },
   {
