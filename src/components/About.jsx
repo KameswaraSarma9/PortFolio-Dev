@@ -15,8 +15,8 @@ function useInView(threshold = 0.2) {
 const timeline = [
   { year: '2020', label: 'Completed 10th', school: 'St. Andrews School (CBSE)', grade: '75.2%' },
   { year: '2022', label: 'Completed Intermediate', school: 'Deeksha Junior College', grade: '87.6%' },
-  { year: '2022', label: 'Started B.Tech', school: 'SMEC Hyderabad (JNTUH)', grade: 'CGPA 8.25' },
-  { year: '2026', label: 'Graduating B.Tech', school: 'Computer Science Engineering', grade: 'Expected' },
+  { year: '2022', label: 'Started B.Tech', school: 'SMEC Hyderabad (JNTUH)', grade: 'CGPA 8.35' },
+  { year: '2026', label: 'Graduating B.Tech', school: 'Computer Science Engineering' },
 ]
 
 export default function About() {
@@ -33,7 +33,7 @@ export default function About() {
           <div className={`about__text ${inView ? 'animate-in' : ''}`} style={{animationDelay:'0.1s'}}>
             <p>
               I'm <strong>Renduchintala Venkata Kameswara Sarma</strong>, a final-year Computer Science 
-              student at St. Martin's Engineering College, Hyderabad. With a CGPA of <span className="highlight">8.25/10</span>, 
+              student at St. Martin's Engineering College, Hyderabad. With a CGPA of <span className="highlight">8.35/10</span>, 
               I've channeled my academic foundation into real-world engineering.
             </p>
             <p>
