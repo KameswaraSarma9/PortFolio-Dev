@@ -54,7 +54,7 @@ const contactLinks = [
   },
   {
     label: 'LeetCode',
-    value: 'leetcode.com/u/rvkameswarasarma',
+    value: 'leetcode.com/u/sLpe12wqcd/',
     href: 'https://leetcode.com/u/sLpe12wqcd/',
     external: true,
     icon: (
