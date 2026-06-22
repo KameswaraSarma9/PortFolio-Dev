@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer__left">
           <span className="footer__logo">⬡ KS</span>
           <p className="footer__copy">
-            Designed & Built by <span className="footer__name">Kameswara Sarma</span>
+            Designed & Built by <span className="footer__name">R V Kameswara Sarma</span>
           </p>
           <p className="footer__stack">React · Vite · Framer Motion · Deployed on Vercel</p>
         </div>

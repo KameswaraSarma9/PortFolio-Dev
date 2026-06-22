@@ -84,7 +84,7 @@ export default function Hero() {
 
           <div className="hero__stats">
             {[
-              { val: '8.25', label: 'CGPA', suffix: '/10' },
+              { val: '8.35', label: 'CGPA', suffix: '/10' },
               { val: '3+', label: 'Projects', suffix: '' },
               { val: '2', label: 'Hackathons', suffix: '' },
               { val: '2026', label: 'Graduating', suffix: '' },

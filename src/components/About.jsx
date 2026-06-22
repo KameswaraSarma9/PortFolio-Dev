@@ -53,7 +53,7 @@ export default function About() {
               <a href="https://github.com/KameswaraSarma9" target="_blank" rel="noreferrer" className="about__link">
                 <span>↗</span> GitHub
               </a>
-              <a href="https://leetcode.com/u/rvkameswarasarma" target="_blank" rel="noreferrer" className="about__link">
+              <a href="https://leetcode.com/u/sLpe12wqcd/" target="_blank" rel="noreferrer" className="about__link">
                 <span>↗</span> LeetCode
               </a>
             </div>
