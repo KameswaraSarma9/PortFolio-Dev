@@ -15,8 +15,8 @@ function useInView(threshold = 0.2) {
 const timeline = [
   { year: '2020', label: 'Completed 10th', school: 'St. Andrews School (CBSE)', grade: '75.2%' },
   { year: '2022', label: 'Completed Intermediate', school: 'Deeksha Junior College', grade: '87.6%' },
-  { year: '2022', label: 'Started B.Tech', school: 'SMEC Hyderabad (JNTUH)', grade: 'CGPA 8.35' },
-  { year: '2026', label: 'Graduating B.Tech', school: 'Computer Science Engineering' },
+  { year: '2022-2026', label: 'B.Tech Computer Science Engineering', school: 'SMEC Hyderabad (JNTUH)', grade: 'CGPA 8.35' },
+  
 ]
 
 export default function About() {

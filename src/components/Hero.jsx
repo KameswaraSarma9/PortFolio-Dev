@@ -131,7 +131,7 @@ export default function Hero() {
             <pre className="hero__code-body">{`const developer = {
   name: "Kameswara Sarma",
   stack: ["MERN", "Java", "SQL"],
-  cgpa: 8.25,
+  cgpa: 8.35,
   location: "Hyderabad, IN",
   status: "open_to_work",
   passion: "building things"
