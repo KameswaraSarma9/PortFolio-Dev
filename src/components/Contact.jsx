@@ -54,8 +54,8 @@ const contactLinks = [
   },
   {
     label: 'LeetCode',
-    value: 'leetcode.com/u/sLpe12wqcd/',
-    href: 'https://leetcode.com/u/sLpe12wqcd/',
+    value: 'leetcode.com/u/rvkameswarasarma/',
+    href: 'https://leetcode.com/u/rvkameswarasarma/',
     external: true,
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor">

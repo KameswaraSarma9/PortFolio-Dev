@@ -51,8 +51,8 @@ const projects = [
     ],
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Vercel', 'Render', 'Atlas'],
     color: '#7b2ff7',
-    liveUrl: null,
-    githubUrl: 'https://github.com/KameswaraSarma9',
+    liveUrl: 'https://logistics-delivery-system.vercel.app/login',
+    githubUrl: 'https://github.com/KameswaraSarma9/Logistics-Delivery_System',
     icon: '📦',
   },
   {
