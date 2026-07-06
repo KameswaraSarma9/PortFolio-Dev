@@ -15,7 +15,7 @@ function useInView(threshold = 0.15) {
 const certs = [
   {
     title: 'Programming in Java',
-    issuer: 'NPTEL — IIT',
+    issuer: 'NPTEL — IIT Kharagpur ',
     badge: 'Elite Category',
     badgeColor: '#f5c518',
     icon: '☕',
