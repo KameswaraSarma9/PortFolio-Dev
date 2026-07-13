@@ -28,7 +28,7 @@ const contactLinks = [
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/kameswarasarma',
+    value: 'linkedin.com/in/rvkameswarasarma',
     href: 'https://linkedin.com/in/rvkameswarasarma',
     external: true,
     icon: (
