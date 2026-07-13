@@ -20,12 +20,10 @@ const categories = [
     accent: '#00f5d4',
     items: [
       { name: 'JavaScript', icon: 'JS' },
-      { name: 'Java', icon: 'Jv' },
       { name: 'Python', icon: 'Py' },
-      { name: 'C', icon: 'C' },
-      { name: 'HTML', icon: 'HT' },
-      { name: 'CSS', icon: 'CS' },
-      { name: 'SQL', icon: 'SQ' },
+      { name: 'HTML', icon: 'HTML' },
+      { name: 'CSS', icon: 'CSS' },
+      { name: 'SQL', icon: 'SQL' },
     ],
   },
   {
@@ -64,7 +62,6 @@ const categories = [
       { name: 'OS', icon: '💻' },
       { name: 'Networks', icon: '🌐' },
       { name: 'System Design', icon: '⚙' },
-      { name: 'Agile', icon: '🔄' },
     ],
   },
   {

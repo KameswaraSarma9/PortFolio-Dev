@@ -47,7 +47,7 @@ export default function About() {
               <span className="highlight"> Software Engineer role</span> where I can grow fast and ship faster.
             </p>
             <div className="about__links">
-              <a href="https://linkedin.com/in/kameswarasarma" target="_blank" rel="noreferrer" className="about__link">
+              <a href="https://linkedin.com/in/rvkameswarasarma" target="_blank" rel="noreferrer" className="about__link">
                 <span>↗</span> LinkedIn
               </a>
               <a href="https://github.com/KameswaraSarma9" target="_blank" rel="noreferrer" className="about__link">

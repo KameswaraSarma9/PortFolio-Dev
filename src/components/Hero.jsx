@@ -87,7 +87,7 @@ export default function Hero() {
               { val: '8.35', label: 'CGPA', suffix: '/10' },
               { val: '3+', label: 'Projects', suffix: '' },
               { val: '2', label: 'Hackathons', suffix: '' },
-              { val: '2026', label: 'Graduating', suffix: '' },
+              { val: '2026', label: 'Graduated', suffix: '' },
             ].map(s => (
               <div key={s.label} className="hero__stat">
                 <span className="hero__stat-val">{s.val}<span className="hero__stat-suffix">{s.suffix}</span></span>
@@ -105,7 +105,7 @@ export default function Hero() {
               <div className="ring ring3" />
             </div>
             <div className="hero__avatar">
-              <img src="/profile.jpg" alt="Kameswara Sarma" className="hero__avatar-photo" />
+              <img src="/My_Photo.png" alt="Kameswara Sarma" className="hero__avatar-photo" />
             </div>
             <div className="hero__badges">
               <div className="hero__badge" style={{top:'10%', right:'-5%'}}>
@@ -118,7 +118,7 @@ export default function Hero() {
                 <span>🍃</span> MongoDB
               </div>
               <div className="hero__badge" style={{top:'35%', left:'-10%'}}>
-                <span>☕</span> Java
+                <span>☕</span> Python
               </div>
             </div>
           </div>
@@ -130,7 +130,7 @@ export default function Hero() {
             </div>
             <pre className="hero__code-body">{`const developer = {
   name: "Kameswara Sarma",
-  stack: ["MERN", "Java", "SQL"],
+  stack: ["MERN", "Python", "SQL"],
   cgpa: 8.35,
   location: "Hyderabad, IN",
   status: "open_to_work",

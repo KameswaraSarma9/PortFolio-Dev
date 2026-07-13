@@ -29,7 +29,7 @@ const contactLinks = [
   {
     label: 'LinkedIn',
     value: 'linkedin.com/in/kameswarasarma',
-    href: 'https://linkedin.com/in/kameswarasarma',
+    href: 'https://linkedin.com/in/rvkameswarasarma',
     external: true,
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor">
