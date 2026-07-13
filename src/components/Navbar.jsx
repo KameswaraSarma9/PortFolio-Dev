@@ -22,7 +22,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__inner">
         <div className="navbar__logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <span className="navbar__logo-hex">⬡</span>
+          <span className="navbar__logo-hex">🧑‍💻</span>
           <span className="navbar__logo-text">KS</span>
         </div>
 
