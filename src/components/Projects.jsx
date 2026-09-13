@@ -16,10 +16,33 @@ const projects = [
   {
     id: '01',
     featured: true,
+    name: 'BinTra',
+    tagline: 'Smart Waste Collection & Management Platform',
+    category: 'Full Stack · Waste Collection · Management Platform ',
+    period: ' July 2026 - Aug 2026',
+    description:
+      'A full-stack smart waste management platform connecting citizens, garbage drivers, and processing-yard administrators. Built an end-to-end garbage collection workflow with truck capacity tracking, OTP-based collection and yard handover verification, reward points, waste processing, and a recycled-products marketplace.',
+    highlights: [
+      'OTP-based verification for household garbage collection and yard handover',
+      'Real-time truck tracking with automatic capacity and availability management',
+      'Complete waste lifecycle from pickup and transportation to processing and recycling',
+      'Reward points system allowing users to redeem recycled products through an in-app marketplace',
+      ],
+    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST API', 'Leaflet', 'Socket.IO'],
+
+    color: '#f72ff7',
+    liveUrl: null,
+    githubUrl: 'https://github.com/KameswaraSarma9/BinTra---Waste-Management-Collection-Platform',
+    icon: '🗑️ 💳',
+  },
+
+  {
+    id: '02',
+    featured: true,
     name: 'ResQNet',
     tagline: 'Real-Time Emergency Response Coordination System',
     category: 'Major Project · Final Year B.Tech',
-    period: 'Jan 2026 – May 2026',
+    period: 'Feb 2026 – May 2026',
     description:
       'A mission-critical platform where citizens report emergencies and trained responders are dispatched in real-time. Built Socket.IO for live incident streaming, designed role-based dashboards for Admins and Responders, and engineered REST APIs for the full incident lifecycle — from report to resolution.',
     highlights: [
@@ -35,14 +58,14 @@ const projects = [
     icon: '🚨',
   },
   {
-    id: '02',
+    id: '03',
     featured: false,
     name: 'LogiTrack',
     tagline: 'Logistics & Delivery Management System',
     category: 'Full Stack · Deployed',
-    period: 'Mar 2025 – Present',
+    period: 'Mar 2026 – May 2026',
     description:
-      'Production-ready delivery management system handling 2,000+ records with optimized MongoDB queries. Features real-time order tracking, intelligent driver assignment, and a multi-role admin dashboard — fully deployed on a free-tier stack of Vercel, Render, and MongoDB Atlas.',
+      'Production-ready delivery management system handling & optimized MongoDB queries. Features real-time order tracking, intelligent driver assignment, and a multi-role admin dashboard — fully deployed on a free-tier stack of Vercel, Render, and MongoDB Atlas.',
     highlights: [
       'Three-role JWT auth system: Customer, Driver & Admin portals',
       '35% API response time boost via MongoDB indexing & geospatial queries',
@@ -54,27 +77,6 @@ const projects = [
     liveUrl: 'https://logistics-delivery-system.vercel.app/login',
     githubUrl: 'https://github.com/KameswaraSarma9/Logistics-Delivery_System',
     icon: '📦',
-  },
-  {
-    id: '03',
-    featured: false,
-    name: 'FreelanceAI',
-    tagline: 'AI-Based Freelancer Marketplace',
-    category: 'Full Stack · Marketplace',
-    period: '2025',
-    description:
-      'A full-stack freelancer marketplace supporting 1,000+ users and 5,000+ transactions. Built an intelligent job-matching system, streamlined bidding workflows, and achieved a 40% reduction in API latency through aggressive indexing and query optimization strategies.',
-    highlights: [
-      '40% API latency reduction via indexing & query optimization',
-      'Full job posting, bidding & contract workflow engine',
-      'Supports 1,000+ concurrent users & 5,000+ transaction records',
-      'Separate responsive UIs for Clients and Freelancers',
-    ],
-    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'NumPy', 'Pandas', 'REST API'],
-    color: '#f72ff7',
-    liveUrl: null,
-    githubUrl: 'https://github.com/KameswaraSarma9',
-    icon: '🤖',
   },
 ]
 
