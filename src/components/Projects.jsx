@@ -31,7 +31,7 @@ const projects = [
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST API', 'Leaflet', 'Socket.IO'],
 
     color: '#f72ff7',
-    liveUrl: null,
+    liveUrl: 'https://bintraa.vercel.app',
     githubUrl: 'https://github.com/KameswaraSarma9/BinTra---Waste-Management-Collection-Platform',
     icon: '🗑️ 💳',
   },
