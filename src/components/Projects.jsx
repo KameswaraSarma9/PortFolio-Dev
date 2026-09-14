@@ -39,7 +39,7 @@ const projects = [
     id: '02',
     featured:false,
     name: 'RentKart',
-    tagline: '',
+    tagline: 'Rental Marketplace Platform',
     category: 'Full Stack · Rental Marketplace · On-Demand Platform',
     period: 'Sept 2026 - Oct 2026',
     description:
@@ -56,10 +56,10 @@ const projects = [
       'Location-based search so users see rentable items near them first',
     ],
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST API', 'Leaflet', 'Socket.IO'],
-    color: '#00A86B',
+    color: '#0076f4',
     liveUrl: null,
     githubUrl: null,
-    icon: '',
+    icon: '🏘️',
   },
 
   {
