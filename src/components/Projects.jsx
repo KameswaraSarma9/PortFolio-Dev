@@ -35,9 +35,35 @@ const projects = [
     githubUrl: 'https://github.com/KameswaraSarma9/BinTra---Waste-Management-Collection-Platform',
     icon: '🗑️ 💳',
   },
-
   {
     id: '02',
+    featured: true,
+    name: 'RentKart',
+    tagline: '',
+    category: 'Full Stack · Rental Marketplace · On-Demand Platform',
+    period: 'Sept 2026 - Oct 2026',
+    description:
+      'A full-stack peer-to-peer rental marketplace where users can list and rent almost anything — electronics like TVs and ACs, vehicles, furniture, tools, and more. Built an end-to-end rental workflow covering listing, booking, secure handover, and return, with owner and renter dashboards on both sides of the transaction.',
+    highlights: [
+      'Category-based listings (Electronics, Appliances, Vehicles, Furniture, Tools) with owner-defined rental price per day/week',
+      'Availability calendar per item with date-range booking and automatic conflict prevention for already-booked slots',
+      'Security deposit + rental fee calculation with refund logic on item return',
+      'OTP or QR-based handover verification at pickup and return to confirm item condition and prevent disputes',
+      'In-app chat between renter and owner for coordination before booking confirmation',
+      'Owner dashboard to track active rentals, earnings, and item availability',
+      'Renter dashboard to track ongoing rentals, due dates, and rental history',
+      'Ratings and reviews for both renters and item owners to build trust',
+      'Location-based search so users see rentable items near them first',
+    ],
+    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST API', 'Leaflet', 'Socket.IO'],
+    color: '#f72ff7',
+    liveUrl: null,
+    githubUrl: null,
+    icon: '',
+  },
+
+  {
+    id: '03',
     featured: true,
     name: 'ResQNet',
     tagline: 'Real-Time Emergency Response Coordination System',
@@ -58,7 +84,7 @@ const projects = [
     icon: '🚨',
   },
   {
-    id: '03',
+    id: '04',
     featured: false,
     name: 'LogiTrack',
     tagline: 'Logistics & Delivery Management System',
