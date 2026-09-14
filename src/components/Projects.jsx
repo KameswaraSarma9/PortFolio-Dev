@@ -15,7 +15,7 @@ function useInView(threshold = 0.08) {
 const projects = [
   {
     id: '01',
-    featured: true,
+    featured:false,
     name: 'BinTra',
     tagline: 'Smart Waste Collection & Management Platform',
     category: 'Full Stack · Waste Collection · Management Platform ',
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     id: '02',
-    featured: true,
+    featured:false,
     name: 'RentKart',
     tagline: '',
     category: 'Full Stack · Rental Marketplace · On-Demand Platform',
