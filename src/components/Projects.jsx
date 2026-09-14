@@ -56,7 +56,7 @@ const projects = [
       'Location-based search so users see rentable items near them first',
     ],
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST API', 'Leaflet', 'Socket.IO'],
-    color: '#f72ff7',
+    color: '#00A86B',
     liveUrl: null,
     githubUrl: null,
     icon: '',
